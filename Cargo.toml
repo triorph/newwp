@@ -1,0 +1,10 @@
+[package]
+edition = "2021"
+name = "newwp"
+version = "0.1.0"
+[dependencies]
+reqwest = {version = "*", features=["blocking", "json"]}
+serde_json = "*"
+serde = {version = "*", features=["derive"]}
+error-chain="*"
+rand="*"
